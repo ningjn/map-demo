@@ -12,6 +12,11 @@ const libUserConfigExport: UserConfig = {
     vue2(),
     vue2Jsx(),
   ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
   build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
@@ -48,7 +53,7 @@ const appUserConfigExport: UserConfig = {
     }
   },
   server: {
-    port: 7001,
+    port: 27001,
     open: true,
     cors: true
   }
