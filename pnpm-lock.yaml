@@ -57,7 +57,7 @@ importers:
 
   apps/sub-apps/vue2/gis-01-base:
     specifiers:
-      '@lambda/olgis-vue2': workspace:0.0.0
+      '@lambda/olgis-vue2': workspace:*
       '@vitejs/plugin-legacy': ^2.0.0
       '@vitejs/plugin-vue2': ^1.1.2
       terser: ^5.14.2
@@ -3103,7 +3103,7 @@ packages:
       regenerator-runtime: registry.npmmirror.com/regenerator-runtime/0.13.11
       systemjs: registry.npmmirror.com/systemjs/6.14.1
       terser: registry.npmmirror.com/terser/5.16.6
-      vite: registry.npmmirror.com/vite/3.2.5_terser@5.16.6
+      vite: registry.npmmirror.com/vite/3.2.5_opzfkrseyvqynwjsytw3qa5jm4
     dev: true
 
   registry.npmmirror.com/@vitejs/plugin-vue-jsx/3.0.1_vite@4.2.1+vue@3.2.47:
@@ -3171,7 +3171,7 @@ packages:
       vite: '>=2.5.10'
       vue: ^2.7.0-0
     dependencies:
-      vite: registry.npmmirror.com/vite/3.2.5_terser@5.16.6
+      vite: registry.npmmirror.com/vite/3.2.5_opzfkrseyvqynwjsytw3qa5jm4
       vue: registry.npmmirror.com/vue/2.7.14
     dev: true
 
