@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "demo:dev": "pnpm -F @olgis/* run dev",
+    "lib:olgis-vue2:dev": "pnpm -F @lambda/olgis-vue2 run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf node_modules **/*/node_modules **/*/.angular",
     "prepare": "husky install"
