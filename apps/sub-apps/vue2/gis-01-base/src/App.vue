@@ -1,6 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import {HelloWorld, TheWelcome} from '@lambda/olgis-vue2'
 </script>
 
 <template>

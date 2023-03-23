@@ -57,12 +57,14 @@ importers:
 
   apps/sub-apps/vue2/gis-01-base:
     specifiers:
+      '@lambda/olgis-vue2': workspace:0.0.0
       '@vitejs/plugin-legacy': ^2.0.0
       '@vitejs/plugin-vue2': ^1.1.2
       terser: ^5.14.2
       vite: ^3.0.2
       vue: ^2.7.7
     dependencies:
+      '@lambda/olgis-vue2': link:../../../../libs/vue2/olgis-vue2
       vue: registry.npmmirror.com/vue/2.7.14
     devDependencies:
       '@vitejs/plugin-legacy': registry.npmmirror.com/@vitejs/plugin-legacy/2.3.1_terser@5.16.6+vite@3.2.5
