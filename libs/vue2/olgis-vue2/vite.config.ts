@@ -53,7 +53,7 @@ const appUserConfigExport: UserConfig = {
     }
   },
   server: {
-    port: 27001,
+    port: 21001,
     open: true,
     cors: true
   }

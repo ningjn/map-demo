@@ -19,7 +19,7 @@ export default defineConfig({
     }
   },
   server: {
-    port: 26001,
+    port: 20001,
     open: true,
     cors: true
   }
