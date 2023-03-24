@@ -9,6 +9,9 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
+  globals:{
+    global: "readonly",
+  },
   parserOptions: {
     ecmaVersion: 'latest'
   }
