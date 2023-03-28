@@ -9,7 +9,8 @@
     ".": {
       "import": "./dist/olgis-vue2.js",
       "require": "./dist/olgis-vue2.umd.cjs"
-    }
+    },
+    "./olgis-vue2.css": "./dist/olgis-vue2.css"
   },
   "scripts": {
     "dev": "vite",

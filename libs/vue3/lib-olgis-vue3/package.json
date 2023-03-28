@@ -9,7 +9,8 @@
     ".": {
       "import": "./dist/olgis-vue3.js",
       "require": "./dist/olgis-vue3.umd.cjs"
-    }
+    },
+    "./olgis-vue3.css": "./dist/olgis-vue3.css"
   },
   "private": true,
   "scripts": {

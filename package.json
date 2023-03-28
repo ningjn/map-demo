@@ -7,7 +7,7 @@
     "demo:dev": "pnpm -F @olgis/* run dev",
     "main:dev": "pnpm -F @olgis/main-gis-demo run dev",
     "lib:vue2:olgis-vue2:dev": "pnpm -F @lambda/olgis-vue2 run dev",
-    "lib:vue:olgis-vue:dev": "pnpm -F @lambda/olgis-vue run dev",
+    "lib:vue3:olgis-vue3:dev": "pnpm -F @lambda/olgis-vue3 run dev",
     "lib:build": "pnpm -F @lambda/* run build:lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf node_modules **/*/node_modules **/*/.angular",

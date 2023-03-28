@@ -6,7 +6,7 @@
 
 <script>
 import {OlGisMap} from "@lambda/olgis-vue2";
-import '@lambda/olgis-vue2/dist/style.css'
+import '@lambda/olgis-vue2/olgis-vue2.css'
 
 export default {
   name: "HomeView",

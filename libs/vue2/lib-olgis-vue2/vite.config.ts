@@ -34,6 +34,7 @@ const libUserConfigExport: UserConfig = {
         globals: {
           vue: 'Vue',
         },
+        assetFileNames: 'olgis-vue2.[ext]'
       },
     },
   },
@@ -54,7 +55,7 @@ const appUserConfigExport: UserConfig = {
     }
   },
   server: {
-    port: 21001,
+    port: 42001,
     open: true,
     cors: true
   }
