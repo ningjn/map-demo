@@ -12,3 +12,6 @@ export function useWujie(app: App) {
 
     app.use(WujieVue);
 }
+
+
+

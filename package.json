@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "demo:dev": "pnpm -F @olgis/* run dev",
+    "main:dev": "pnpm -F @olgis/main-gis-demo run dev",
     "lib:vue2:olgis-vue2:dev": "pnpm -F @lambda/olgis-vue2 run dev",
     "lib:vue:olgis-vue:dev": "pnpm -F @lambda/olgis-vue run dev",
     "lib:build": "pnpm -F @lambda/* run build:lib",
