@@ -2,7 +2,9 @@
   "name": "@lambda/olgis-vue3",
   "version": "0.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/olgis-vue3.umd.cjs",
   "module": "./dist/olgis-vue3.js",
   "exports": {
@@ -24,10 +26,17 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.2",
+    "ol": "^7.3.0",
+    "ol-ext": "^4.0.6",
+    "pinyin-pro": "^3.13.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
+    "@types/lodash": "^4.14.192",
     "@types/node": "^18.14.2",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",

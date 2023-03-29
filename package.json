@@ -11,7 +11,8 @@
     "lib:build": "pnpm -F @lambda/* run build:lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf node_modules **/*/node_modules **/*/.angular",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "pnpm -F @lambda/* run lint"
   },
   "keywords": [],
   "author": "",
